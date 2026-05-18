@@ -2,6 +2,18 @@
 # npm create vite@latest my-project
 # configure the tailwind 
     1. npm install tailwindcss @tailwindcss/vite
+Header
+Routing of App
+Login Form
+Sign up Form
+Form Validation
+useRef Hook
+Firebase Setup
+Deploying our app to production
+Create SignUp User Account
+Implement Sign In user Api
+Created Redux Store with userSlice
+Implemented Sign out
 
 ## FEATURES 
 
