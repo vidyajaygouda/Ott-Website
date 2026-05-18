@@ -41,6 +41,14 @@ Update Store with Trailer Video Data
 Embedded the Yotube video and make it autoplay and mute
 Tailwind Classes to make Main Container look awesome
 
+2. Second Container 
+  Movie List 
+   Popular 
+   Now playing 
+   trending 
+   horror
+  
+
      
 
 ## FEATURES 
