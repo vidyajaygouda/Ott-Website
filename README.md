@@ -47,6 +47,13 @@ Tailwind Classes to make Main Container look awesome
    Now playing 
    trending 
    horror
+
+Build Secondary Component
+Build Movie List
+build Movie Card
+TMDB Image CDN URL
+Made the Browsre page amazing with Tailwind CSS
+usePopularMovies Custom hook
   
 
      
