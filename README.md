@@ -31,6 +31,16 @@ Get Data from TMDB now playing movies list API
     cards *n 
      movie title 
      play btn 
+Get Data from TMDB now playing movies list API
+Custom Hook for Now Playing Movies
+Create movieSlice
+Update Store with movies Data
+Planning for MainContauiner & secondary container
+Fetch Data for Trailer Video
+Update Store with Trailer Video Data
+Embedded the Yotube video and make it autoplay and mute
+Tailwind Classes to make Main Container look awesome
+
      
 
 ## FEATURES 

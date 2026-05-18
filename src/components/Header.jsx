@@ -33,7 +33,7 @@ const Header = () => {
     });
   }
   return (
-    <div className='w-full absolute px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between'>
+    <div className='w-full sticky px-8 py-2 bg-black z-10 flex justify-between top-0 opacity-0.2'>
       <img 
       className="w-44"
       src={LOGO}
