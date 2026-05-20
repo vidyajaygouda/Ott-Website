@@ -8,7 +8,7 @@ export const USER_AVATAR =
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMGQwNjk4MGNlYTUzZDM3NDQ4YTg2OWM2ZTMyNDNhYSIsIm5iZiI6MTc3OTA4NjUwNC44MTUsInN1YiI6IjZhMGFiNGE4MmJjZWFlNWE0ODVmYmE5ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.H4trlIS_ypJBf1LAewb94LhFM96eAO5tk55vYs1jkl4",
+    Authorization: "Bearer" + import.meta.env.VITE_TMDB_KEY,
   },
 };
 

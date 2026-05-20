@@ -1,12 +1,30 @@
 import { useRef } from "react";
 import lang from "../utils/languageConstants";
 import { useSelector } from "react-redux";
+import { client } from "../utils/openAi";
 
 const GptSearchBar = () => {
   const searchText = useRef(null);
   const langKey = useSelector((store) => store.config.lang);
 
-    const handleGptSearchClick = () =>{
+    const handleGptSearchClick = async() =>{
+
+      const gptQuery =
+      "Act as a Movie Recommendation system and suggest some movies for the query : " +
+      searchText.current.value +
+      ". only give me names of 5 movies, comma seperated like the example result given ahead. Example Result: Gadar, Sholay, Don, Golmaal, Koi Mil Gaya";
+        try {
+          const gptResults = await client.responses.create({
+            model: "gpt-4.1-mini",
+            input: "Hello",
+          });
+          console.log(gptResults.output_text);
+        } catch (error) {
+          console.error("OpenAI Error:", error);
+    }
+
+    // console.log(gptResults.choices?.[0]?.message?.content);
+
 
     }
   return (
